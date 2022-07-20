@@ -1,0 +1,10 @@
+/* header */
+.header {
+    border-bottom: 1px solid var(--border-hero-cl);
+    
+    &__conteiner {
+        display: flex;
+        align-self: center;
+    }
+}
+

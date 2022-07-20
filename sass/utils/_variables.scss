@@ -1,0 +1,53 @@
+:root {
+  /* fonts */
+  --mein-txt: 'Roboto';
+  --secondors-txt: 'Raleway';
+
+  /* text color */
+  --mein-text-color: #757575;
+  --text-color: #212121;
+  --footer-secondori-color: rgba(255, 255, 255, 0.6);
+  --logo-txt-color: #000000;
+  --white-txt-color: #ffffff;
+  --icon-header-cl: #757575;
+
+  /* bg color */
+  --hero-bg-color: #2f303a;
+  --bg-team: #f5f4fa;
+  --white-bg-color: #ffffff;
+  --bg-icon-sevices: #f5f4fa;
+  --overley-bg: rgba(33, 150, 243, 0.9);
+
+  /* others */
+  --accent-color: #2196f3;
+  --button-accent: #188ce8;
+  --border-hero-cl: #ececec;
+  --border-project-cl: #eeeeee;
+  --icon-cl: #afb1b8;
+
+  --timing-f: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('../../fonts/Raleway/Raleway-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../../fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../../fonts/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('../../fonts/Roboto/Roboto-Regular.ttf');
+}
