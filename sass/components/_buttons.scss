@@ -21,8 +21,8 @@
   color: var(--white-txt-color);
   background-color: var(--accent-color);
 
-  &__btn:hover,
-  &__btn:focus {
+  &:hover,
+  &:focus {
     background-color: var(--button-accent);
   }
 }
@@ -85,12 +85,12 @@
   padding: 6px 22px;
   border: 0;
 
-  text-align: center;
-
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 
   border-radius: 4px;
   background: var(--bg-team);

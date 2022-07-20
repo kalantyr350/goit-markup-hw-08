@@ -117,7 +117,7 @@ address {
   color: var(--white-txt-color);
   background-color: var(--accent-color);
 }
-.hero__btn__btn:hover, .hero__btn__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: var(--button-accent);
 }
 
@@ -179,11 +179,12 @@ address {
 .filter-button {
   padding: 6px 22px;
   border: 0;
-  text-align: center;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   border-radius: 4px;
   background: var(--bg-team);
   color: var(--text-color);
@@ -347,7 +348,7 @@ address {
   fill: currentColor;
 }
 
-.contacs__link {
+.contacts__link {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -358,7 +359,7 @@ address {
   -webkit-transition: color 250ms var(--timing-f);
   transition: color 250ms var(--timing-f);
 }
-.contacs__link:hover, .contacs__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
