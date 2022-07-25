@@ -1,20 +1,5 @@
 /* header contact */
 .contacts {
-	&--flex {
-		display: flex;
-		align-self: center;
-
-		margin-left: auto;
-	}
-
-	@media screen and (min-width: 480px) {
-		display: none;
-	}
-
-	@media screen and (min-width: 767px) {
-		display: block;
-	}
-
 	&__txt {
 		font-weight: 500;
 		line-height: 1.14;
@@ -45,5 +30,21 @@
 	&:hover,
 	&:focus {
 		color: var(--accent-color);
+	}
+}
+
+.contacts--flex {
+	@media screen and (min-width: 480px) {
+		display: none;
+	}
+
+	@media screen and (min-width: 767px) {
+		display: block;
+	}
+	@media screen and (min-width: 1200px) {
+		display: flex;
+		align-self: center;
+
+		margin-left: auto;
 	}
 }
