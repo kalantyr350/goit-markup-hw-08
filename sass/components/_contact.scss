@@ -1,17 +1,7 @@
 /* header contact */
 .contacts {
-	&__txt {
-		font-weight: 500;
-		line-height: 1.14;
-		letter-spacing: 0.02em;
-	}
-
 	&__link--cl-grey {
 		color: var(--mein-text-color);
-	}
-
-	&__item:not(:last-child) {
-		margin-right: 30px;
 	}
 
 	&__icon {
@@ -20,10 +10,28 @@
 	}
 }
 
+.contacts__txt {
+	@media screen and (min-width: 768px) {
+		@include fonts(500, 12px, 14px, 0.02em);
+	}
+
+	@media screen and (min-width: 1200px) {
+		@include fonts(500, 14px, 16px, 0.02em);
+	}
+}
+
+.contacts__item {
+	@media screen and (min-width: 1200px) {
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+}
+
 .contacts__link {
 	display: inline-flex;
 	align-items: center;
-	padding: 32px 0;
+	// padding: 32px 0;
 
 	transition: color 250ms var(--timing-f);
 
@@ -34,15 +42,16 @@
 }
 
 .contacts--flex {
-	@media screen and (max-width: 767px) {
-		display: none;
-	}
+	display: none;
 
 	@media screen and (min-width: 768px) {
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
 	}
 	@media screen and (min-width: 1200px) {
-		display: flex;
+		flex-direction: row;
+		justify-content: normal;
 		align-self: center;
 
 		margin-left: auto;
