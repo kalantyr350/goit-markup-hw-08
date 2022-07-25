@@ -1,9 +1,19 @@
 /* header */
 .header {
 	border-bottom: 1px solid var(--border-hero-cl);
+}
 
-	&__conteiner {
-		display: flex;
-		align-self: center;
+.header__conteiner {
+	position: relative;
+
+	display: flex;
+	align-self: center;
+
+	@media screen and (min-width: 480px) {
+		padding: 10px 15px;
+	}
+
+	@media screen and (min-width: 768px) {
+		padding: 0 15px;
 	}
 }

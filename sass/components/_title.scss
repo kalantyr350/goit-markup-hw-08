@@ -1,10 +1,25 @@
 .title {
-  @include fonts(700, 36px, 42px, null);
+	text-align: center;
+	color: var(--text-color);
 
-  text-align: center;
-  color: var(--text-color);
+	&--margin-b {
+		margin-bottom: 50px;
+	}
 
-  &--margin-b {
-    margin-bottom: 50px;
-  }
+	@media screen and (min-width: 480px) {
+		@include fonts(700, 28px, 33px, null);
+	}
+
+	@media screen and (min-width: 1200px) {
+		@include fonts(700, 36px, 42px, null);
+	}
+}
+
+.modal-title {
+	margin-bottom: 12px;
+
+	@include fonts(700, 20px, 23px, null);
+	text-align: center;
+
+	color: var(--text-color);
 }
