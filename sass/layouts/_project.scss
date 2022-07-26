@@ -23,7 +23,8 @@
 }
 
 .project-link {
-	display: block;
+	display: flex;
+	flex-direction: column;
 
 	text-decoration: none;
 	transition: box-shadow 250ms var(--timing-f);
@@ -35,6 +36,7 @@
 }
 
 .txt-conteiner {
+	flex-grow: 1;
 	padding: 20px 24px;
 	border: 1px solid var(--border-project-cl);
 	border-top: 0;

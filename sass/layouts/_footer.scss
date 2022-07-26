@@ -12,10 +12,8 @@
 }
 
 .tablet-conteiner {
-	@media screen and (min-width: 480px) {
-		display: flex;
-		flex-direction: column;
-	}
+	display: flex;
+	flex-direction: column;
 
 	@media screen and (min-width: 768px) {
 		display: flex;
@@ -26,11 +24,9 @@
 }
 
 .adaptiv-flex {
-	@media screen and (min-width: 480px) {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 60px;
-	}
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
 
 	@media screen and (min-width: 1200px) {
 		display: block;
@@ -46,11 +42,9 @@
 }
 
 .contact-footer {
-	@media screen and (min-width: 480px) {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	@media screen and (min-width: 1200px) {
 		display: flex;
@@ -96,12 +90,12 @@
 
 .footer-social-conteiner {
 	// margin-left: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 60px;
 
 	@media screen and (min-width: 480px) {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-bottom: 60px;
 	}
 }
 
