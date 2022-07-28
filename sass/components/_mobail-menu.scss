@@ -18,7 +18,7 @@
 }
 
 .menu-burger {
-	transition: 250px;
+	transition: 250ms;
 	.menu-btn.is-open & {
 		opacity: 0;
 	}

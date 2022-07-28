@@ -25,6 +25,7 @@
 .project-link {
 	display: flex;
 	flex-direction: column;
+	height: 100%;
 
 	text-decoration: none;
 	transition: box-shadow 250ms var(--timing-f);
