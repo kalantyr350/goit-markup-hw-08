@@ -536,7 +536,7 @@ address {
 .modal {
   position: absolute;
   width: 450px;
-  min-height: 609px;
+  min-height: 581px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -551,7 +551,6 @@ address {
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
-    min-height: 581px;
   }
 }
 
@@ -875,6 +874,7 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 77px 24px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -884,11 +884,6 @@ address {
   transition: -webkit-transform 250ms var(--timing-f);
   transition: transform 250ms var(--timing-f);
   transition: transform 250ms var(--timing-f), -webkit-transform 250ms var(--timing-f);
-}
-@media screen and (min-width: 480px) {
-  .overlay-text {
-    padding: 77px 24px;
-  }
 }
 @media screen and (min-width: 768px) {
   .overlay-text {
